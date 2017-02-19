@@ -18,7 +18,9 @@ sys.version_info # python version is 2.7.6
     sys.version_info(major=2, minor=7, micro=6, releaselevel='final', serial=0)
 
 
-```Installation of pyhton on Ubuntu 14.04
+```
+
+Installation of pyhton on Ubuntu 14.04
 
 Ubuntu system has pyhton 2.7.X inbuilt no need to download and install it 
 
@@ -32,7 +34,9 @@ Python 2.7.6
 ```
 
 
-```Install pip and setup tools On Linux ubuntu 14.04
+```
+
+Install pip and setup tools On Linux ubuntu 14.04
 
 
 What is pip?
@@ -51,7 +55,10 @@ pip 9.0.1 from /usr/local/lib/python2.7/dist-packages (python 2.7)Next step is t
 ```
 
 
-```Installation steps for NLTK 
+```
+
+
+Installation steps for NLTK 
 
 on terminal execute following command
 $ sudo pip install nltk
@@ -68,9 +75,5 @@ Choose the path where you wnat to download nltk data and click "Download" option
 
 Download process may take long time.
 you can refer the diagram 1.4 given in chapter no 1
-
-```
-
-```python
 
 ```
