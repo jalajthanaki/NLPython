@@ -76,4 +76,12 @@ Choose the path where you wnat to download nltk data and click "Download" option
 Download process may take long time.
 you can refer the diagram 1.4 given in chapter no 1
 
+OR 
+
+If you don't want to go inside python shell you can open your system's terminal and execute the following command
+Command : sudo python -m nltk.downloader -d PATH_OF_NLTK_DATA all
+Actual command : sudo python -m nltk.downloader -d /usr/local/share/nltk_data all
+
+
+
 ```
