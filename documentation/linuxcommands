@@ -1,1 +1,92 @@
-This is linux command file
+Linux (Ubuntu 14.04) installation links
+
+Follow the link where you can find various option to install it.
+https://simplifydatascience.wordpress.com/2016/10/11/ubuntu-for-beginners-part-1/
+
+--------Basic Commands for directory-------- 
+1. cd to change directory
+cd /home/jalaj/folder1
+
+2. ~ stands for /home/USERNAME
+example:
+cd ~ = cd /home/jalaj
+
+3. To see at which location 
+pwd
+
+
+4. Jump to parent directory
+cd ..
+
+5. Jump to root directory
+cd  
+
+6.Jump to home directory
+cd ~ or cd /home/jalaj
+
+7. To visit last path 
+cd -
+example:
+cd /home/jalaj/folder1
+cd ..
+cd /home/jalaj/folder2
+now you want to visit folder1 again
+cd -
+
+8. . stands for current directory
+cd /home/jalaj/folder1
+cd ./subfolder1 means you can jump inside subfolder1 which is reside inside folde1
+structure is as below
+folder1
+----subfolder1
+
+--------------Basic command for files-------------
+1. Open file
+sudo vi /home/jalaj/test.txt
+
+2. Edit or write inside the file
+press Insert key and start writing OR
+press i and start writing 
+i or Insert indication writing mode for file
+
+3. If you press Esc key you can't edit file.
+
+4. once you have finshed writing you need to do following steps to save file with its content
+press Esc key
+type :wq This is for saving file with its content
+
+5. If you open file and changed content but you now you don't want to save it
+press Esc
+type :q!
+------------List all items inside the directory---------
+
+
+------------Copy Paste commands--------------
+
+
+------------Cut Paste commands--------------
+
+
+-----------Rename files or folders----------
+
+
+-----------Delete files or folder-----------
+
+
+----------Change ownership------------------
+
+
+----------Change permissions----------------
+
+
+-----------Tar and untar files-------------
+
+-----------Basic installation for software-------------
+
+-----------How to define golbal envirnment variable inside bashrc files-------
+
+-----------Deal with hidden files----------------
+
+-----------Shortcut for frequent commands--------
+
+
