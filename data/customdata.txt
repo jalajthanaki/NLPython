@@ -1,0 +1,110 @@
+2
+Practical understanding of corpus
+In this chapter, we'll explore first building block of NLP. We are going to cover following topics to get practical understanding of corpus or dataset.
+What is corpus?
+Why do we need corpus?
+Resources for access free corpus
+Understanding types of data attributes
+Understanding Corpus Analysis
+Exploring different file formats of datasets
+What is corpus?
+Natural Language Processing (NLP) related applications used to build by using huge amount of data. The large collection of data is called corpus. If you have more than one corpus it is called corpora.
+In corpus, large collection of data can be in following formats.
+Text data means written material
+Speech data means spoken material
+Corpus is also referred as dataset in some cases.
+There are two types of corpus
+Monolingual corpus: This type of corpus has one language.
+Bilingual corpus: This type of corpus has two languages.
+Multilingual corpus: This type of corpus has more than one languages.
+Few examples of the available corpora are given below.
+Google Books Ngram corpus
+Brown corpus
+American National Corpus (ANC)
+Why do we need corpus?
+In any NLP application need data or corpus for building NLP tools and application. Corpus is the most critical and basic building block to build any of the NLP related applications. Corpus plays a very big role in NLP applications. Challenges regarding creating corpus for NLP applications is stated below.
+Let's take an example what if you want to make NLP tool which understands medical state of the particular patient and after analysis generate diagnosis.
+If you see the above example as NLP learner, you should process the problem statement as stated below. Here our aspect is more biased towards corpus level and generalized.
+What kind of data do I need if I want solve the problem statement.
+You need clinical notes or patient history
+You need audio recording of conversation between doctor and patient
+Do you have this kind of corpus or data with you?
+If yes – Great..! You are in good position so you can proceed for next question
+If no – Ok...! No worries. You need to process one more question which probably the difficult one but interesting as well.
+Is there any open source corpus available?
+If yes download it and follow the next question
+If no then think how you can access the data and build the corpus. Think of web scraping tools & techniques but you have to explore the ethical as well as legal aspects of your web scraping tool.
+What is the quality level of corpus?
+Go through the corpus and try to figure it out following things.
+If I can't understand the dataset at all then what to do?
+You need to spent more time with your dataset.
+Behave like machine and try to think if you are machine and you have been feeded with this kind of dataset then what all things you process?  Don't think that you will throw error...!
+Find the one thing that you feel, you can begin with
+Suppose as per example your NLP tool is diagnosed human disease so think if you are doctor's machine and what you will ask to the  patient? Now you can start understanding about your dataset and then think on the pre-processing part. Do not  rush to the pre-processing part.
+If I can understand the dataset then what to do?
+Do I need each and everything which is in the corpus to build a NLP system?
+If yes then proceed to the next level which we will see in Chapter 5 Feature engineering
+If no  then  proceed to the next level which we will see in Chapter 4 Pre-processing
+Does the amount of data will be sufficient for solving the problem statement for at least on Proof of concept (POC) basis?
+According to my experience, I would prefer to have at least 500MB -1GB of data for small POC.
+For startups, collect 500MB to 1GB data is also a challenge because of the following reason
+Startups are new in business
+Sometime they are so much innovative and there is no ready made dataset available
+If they manage to build POC then validate their product in real-life is also challenging.
+Resources for access free corpus
+To get the corpus is the challenging task but in this section I will provide you some of the links from where you can download free corpus and use them to build NLP applications.
+NLTK library provide some inbuilt corpus. To list down all corpus names execute following commands
+import nltk.corpus
+dir(nltk.corpus) # Python shell
+print dir(nltk.corpus) # Pycharm IDE syntax
+Following figure 2.1, you can see the output of the above code and highlighted part indicated the name of the corpora which are already installed.
+Figure 2.1: List of all available corpus in NLTK
+If you guys want to use IDE for developing NLP application using python then you can use pycharm community version. You can follow installation step by clicking on this url:
+If you want to explore more corpus resource, see Big Data: 33 Brilliant And Free Data Sources For 2016, Bernard Marrr, www.forbes.com1
+Understanding types of data attributes
+Now let's focus on the what kind of data attributes can be appear in the corpus. Following figure 2.2, providing you details about the different types of data attributes:
+Figure 2.2: Types of data attributes
+I want to give some examples about the different type of corpus. The examples are generalized so you guys can understand about different type of data attributes.
+Categorical or Qualitative data attributes
+This kind of data attributes are more descriptive.
+Examples: your written notes, corpora provided by NLTK, corpus which have recorded different types of breed of a dog like collie, shepherd, terrier.
+There are two sub-types of categorical data attributes.
+Ordinal data
+This type of data attribute is used to record measure non-numeric concepts like satisfaction level, happiness level, discomfort level and so on.
+Examples: How do you feel today? - bad, good, happy, very happy other example is, please write a feedback for service has been provided to you which is
+Nominal data
+This type of data attributes is used to record data which doesn't overlap.
+Example: What is your gender? Answer is either male or female and answer is not overlapped.
+In NLP related applications, we will majorly deal with categorical data attributes so to derive appropriate data points from corpus which has categorical data attributes is a part of feature engineering. We will see more on this form Chapter 5 Feature engineering
+Some corpus contains both sub-types of categorical data.
+Numeric or Quantitative data attributes
+This kind of data attributes are numeric and represent a measurable quantity.
+Examples: Financial data, population of city, Weight of people and son
+There are two sub-types of numeric data attributes
+Continuous data
+This kind of data attributes are continuous let's take some examples to explain the concept.
+Examples: if you are recording weight of student from 10 to 12 year age then whatever data you collected about the student weight is continuous data, Irish flower corpus
+Discrete data
+Discrete Data can only take certain values.
+Examples: the results of rolling 2 dice can only have the values 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12, if you toss a coin you will get either head or tail.
+This kind of data attributes are majorly part of the analytics applications.
+Understanding corpus analysis
+As I described earlier, NLTK has many corpora which are available to us. Now it is time to do some practical stuff that will give you great understanding about data and corpus. I will walk you through the import aspects of corpus analysis. Let's begin our practical ride.
+Please follow the python code on this url:
+The python code has basic commands of how to access corpus using NLTK API.
+
+The simplest kind of corpus is a collection of isolated texts with no particular organization; some corpora are structured into categories like genre (Brown Corpus); some categorizations overlap, such as topic categories (Reuters Corpus); other corpora represent language use over time (Inaugural Address Corpus).
+All NLTK corpus are not that much noisy some basic kind of pre-processing is required
+Please note, this is corpus analysis in terms of technical aspect. We are not focusing on corpus linguistics analysis so guys please do not confuse.
+Exploring different file formats for corpus
+Corpus can be in so many different formats. In practice we can use majorly following file format.
+.txt
+.csv
+.tsv
+.xml
+.json
+Libsvm
+Customized format
+Summary
+In this chapter, We have seen
+In the next chapter we will
