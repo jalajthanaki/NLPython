@@ -1,7 +1,6 @@
 import nltk
 from nltk.corpus import gutenberg as cg
 from nltk.tokenize import sent_tokenize as st
-import re
 
 
 # Get raw data form file
