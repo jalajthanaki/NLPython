@@ -1,5 +1,6 @@
 import nltk
 from nltk.corpus import gutenberg as cg
+from nltk.tokenize import sent_tokenize as st
 import re
 
 
@@ -8,8 +9,6 @@ def fileread():
     file_contents = open("/home/jalaj/PycharmProjects/NLPython/NLPython/data/rawtextcorpus.txt", "r").read()
     # print file_contents
     return file_contents
-
-
 # assign text data to local variable
 def localtextvalue():
     text = """ one paragraph, of 100-250 words, which summarizes the purpose, methods, results and conclusions of the paper.
@@ -19,13 +18,11 @@ def localtextvalue():
     # print text
     return text
 
-
 # Use NLTK corpus which we seen in chapter 2 as well
 def readcorpus():
     raw_content_cg = cg.raw("burgess-busterbrown.txt")
     # print raw_content_cg[0:1000]
     return raw_content_cg[0:1000]
-
 
 if __name__ == "__main__":
     print ""
@@ -33,15 +30,25 @@ if __name__ == "__main__":
     print ""
     filecontentdetails = fileread()
     print filecontentdetails
+    # sentence tokenizer
+    st_list_rawfile = st(filecontentdetails)
+    print len(st_list_rawfile)
 
     print ""
     print "-------Output from assigned variable-------"
     print ""
     localveriabledata = localtextvalue()
     print localveriabledata
+    # sentence tokenizer
+    st_list_local = st(localveriabledata)
+    print len(st_list_local)
+    print st_list_local
 
     print ""
     print "-------Output Corpus data--------------"
     print ""
     fromcorpusdata = readcorpus()
     print fromcorpusdata
+    # sentence tokenizer
+    st_list_corpus = st(fromcorpusdata)
+    print len(st_list_corpus)

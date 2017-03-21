@@ -1,0 +1,66 @@
+
+ABSTRACT
+
+1. An abstract, or summary, is published together with a research article, giving the reader a "preview" of what's to come. Such abstracts may also be published separately in bibliographical sources, such as Biologic al Abstracts. They allow other scientists to quickly scan the large scientific literature, and decide which articles they want to read in depth. The abstract should be a little less technical than the article itself; you don't want to dissuade your potent ial audience from reading your paper.
+
+2. Your abstract should be one paragraph, of 100-250 words, which summarizes the purpose, methods, results and conclusions of the paper.
+
+3. It is not easy to include all this information in just a few words. Start by writing a summary that includes whatever you think is important, and then gradually prune it down to size by removing unnecessary words, while still retaini ng the necessary concepts.
+
+3. Don't use abbreviations or citations in the abstract. It should be able to stand alone without any footnotes.
+
+INTRODUCTION
+
+What question did you ask in your experiment? Why is it interesting? The introduction summarizes the relevant literature so that the reader will understand why you were interested in the question you asked. One to fo ur paragraphs should be enough. End with a sentence explaining the specific question you asked in this experiment.
+
+MATERIALS AND METHODS
+
+1. How did you answer this question? There should be enough information here to allow another scientist to repeat your experiment. Look at other papers that have been published in your field to get some idea of what is included in this section.
+
+2. If you had a complicated protocol, it may helpful to include a diagram, table or flowchart to explain the methods you used.
+
+3. Do not put results in this section. You may, however, include preliminary results that were used to design the main experiment that you are reporting on. ("In a preliminary study, I observed the owls for one week, and found that 73 % of their locomotor activity occurred during the night, and so I conducted all subsequent experiments between 11 pm and 6 am.")
+
+4. Mention relevant ethical considerations. If you used human subjects, did they consent to participate. If you used animals, what measures did you take to minimize pain?
+
+RESULTS
+
+1. This is where you present the results you've gotten. Use graphs and tables if appropriate, but also summarize your main findings in the text. Do NOT discuss the results or speculate as to why something happened; t hat goes in th e Discussion.
+
+2. You don't necessarily have to include all the data you've gotten during the semester. This isn't a diary.
+
+3. Use appropriate methods of showing data. Don't try to manipulate the data to make it look like you did more than you actually did.
+
+"The drug cured 1/3 of the infected mice, another 1/3 were not affected, and the third mouse got away."
+
+TABLES AND GRAPHS
+
+1. If you present your data in a table or graph, include a title describing what's in the table ("Enzyme activity at various temperatures", not "My results".) For graphs, you should also label the x and y axes.
+
+2. Don't use a table or graph just to be "fancy". If you can summarize the information in one sentence, then a table or graph is not necessary.
+
+DISCUSSION
+
+1. Highlight the most significant results, but don't just repeat what you've written in the Results section. How do these results relate to the original question? Do the data support your hypothesis? Are your results consistent with what other investigators have reported? If your results were unexpected, try to explain why. Is there another way to interpret your results? What further research would be necessary to answer the questions raised by your results? How do y our results fit into the big picture?
+
+2. End with a one-sentence summary of your conclusion, emphasizing why it is relevant.
+
+ACKNOWLEDGMENTS
+
+This section is optional. You can thank those who either helped with the experiments, or made other important contributions, such as discussing the protocol, commenting on the manuscript, or buying you pizza.
+
+REFERENCES (LITERATURE CITED)
+
+There are several possible ways to organize this section. Here is one commonly used way:
+
+1. In the text, cite the literature in the appropriate places:
+
+Scarlet (1990) thought that the gene was present only in yeast, but it has since been identified in the platypus (Indigo and Mauve, 1994) and wombat (Magenta, et al., 1995).
+
+2. In the References section list citations in alphabetical order.
+
+Indigo, A. C., and Mauve, B. E. 1994. Queer place for qwerty: gene isolation from the platypus. Science 275, 1213-1214.
+
+Magenta, S. T., Sepia, X., and Turquoise, U. 1995. Wombat genetics. In: Widiculous Wombats, Violet, Q., ed. New York: Columbia University Press. p 123-145.
+
+Scarlet, S.L. 1990. Isolation of qwerty gene from S. cerevisae. Journal of Unusual Results 36, 26-31.
