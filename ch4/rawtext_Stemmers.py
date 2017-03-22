@@ -1,5 +1,6 @@
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
+
 text = """Stemming is funnier than a bummer says the sushi loving computer scientist.
 She really wants to buy cars. She told me angrily.
 It is better for you. Man is walking. We are meeting tomorrow."""
