@@ -1,0 +1,119 @@
+sudo vi ~/.vimrc
+set nocp
+set backspace=indent,eol,start
+chown jalaj:jalaj ~/.vimrc
+---------------------------------------
+GC commands
+
+gc to local
+scp -i ~/.ssh/my-ssh-key jalaj_thanaki@104.198.100.58:/var/www/html/flaskapp/custom_script/conversion_script_new_flow.py /home/jalaj
+
+local to gc
+scp -i ~/.ssh/my-ssh-key /home/jalaj/filename jalaj_thanaki@104.198.100.58:~
+---------------------------------------
+link: https://packaging.python.org/install_requirements_linux/
+
+ubuntu
+sudo apt-get install -y python-pip
+sudo apt-get install -y python3-pip
+
+upgrading pip
+sudo pip install -U pip setuptools
+pip install -U pip
+----------------------------------------
+sudo pip install bson
+sudo pip install num2words
+sudo pip install Flask
+sudo pip install -U flask-cors
+sudo pip install Flask-PyMongo
+sudo pip install pymongo
+sudo pip install pyotp
+sudo apt-get install -y python-dev libmysqlclient-dev
+sudo pip install MySQL-python
+sudo pip install pygal	
+sudo pip install pygal_maps_world
+sudo pip install python-dateutil
+sudo pip install geopy
+sudo pip install wordcloud
+sudo pip install pytesseract
+sudo pip install pyvirtualdisplay
+sudo pip install selenium
+sudo pip install scrapy
+---------------------------------------
+ML & NLP
+
+sudo pip install numpy
+sudo pip install scipy
+sudo apt-get install python-matplotlib
+sudo python -m pip install matplotlib
+sudo pip install -U scikit-learn
+sudo pip install nltk
+python
+>> nltk.download()
+sudo pip install gensim
+sudo pip install pandas
+sudo pip install jupyter
+sudo apt-get install python-numpy libicu-dev
+sudo pip install polyglot
+
+---------------------------------------
+Mongodb
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
+echo "deb [ arch=amd64 ] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
+sudo service mongod start
+sudo service mongod stop
+sudo service mongod restart
+sudo chmod 777 /var/lib/mongodb
+sudo chmod 777 /var/log/mongodb
+---------------------------------------
+LAMP setup
+sudo apt-get install apache2
+sudo apt-get install mysql-server
+sudo apt-get install php5 libapache2-mod-php5
+sudo /etc/init.d/apache2 restart
+http://localhost/
+sudo apt-get install php5-cli
+php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
+sudo apt-get install phpmyadmin
+sudo php5enmod mcrypt
+-----------------------------------------
+java
+sudo mkdir /usr/java
+sudo tar xvzf jdk-8u121-linux-x64.tar.gz -C /usr/java	
+JAVA_HOME=/usr/java/jdk1.8.0_121/
+sudo update-alternatives --install /usr/bin/java java ${JAVA_HOME%*/}/bin/java 20000
+sudo update-alternatives --install /usr/bin/javac javac ${JAVA_HOME%*/}/bin/javac 20000
+update-alternatives --config java
+export PATH=$PATH:~/bin
+export PATH=$PATH:JAVA_HOME/bin
+--------------------------------------------
+intellj
+sudo tar -xvf ideaIC-2016.3.4.tar.gz -C /opt/
+sudo vi /usr/share/applications/idea.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Name=IntelliJ IDEA
+Comment=IntelliJ IDEA
+Exec=/opt/idea-IC-163.12024.16/bin/idea.sh
+Icon=/opt/idea-IC-163.12024.16/bin/idea.png
+Terminal=false
+StartupNotify=true
+Type=Application
+------------------------------------------
+eclipse
+sudo tar -xvf ideaIC-2016.3.4.tar.gz -C /opt/
+[Desktop Entry]
+Name=Eclipse 4
+Type=Application
+Exec=/opt/eclipse/eclipse
+Terminal=false
+Icon=/opt/eclipse/icon.xpm
+Comment=Integrated Development Environment
+NoDisplay=false
+Categories=Development;IDE;
+Name[en]=Eclipse
+chmod +x /usr/share/applications/eclipse.desktop
+
+
