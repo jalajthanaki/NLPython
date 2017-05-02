@@ -1,4 +1,4 @@
-##Hadoop Installation Steps for single node standalone cluster
+## Hadoop Installation Steps for single node standalone cluster
 ```
 There are 3 major steps which are given below.
 1. Install java and ssh server and clint as prerequisites
