@@ -6,10 +6,12 @@
 
 
 
-```python
+```
+python
 import sys
 sys.version
 sys.version_info 2_Python
+
 ```
 
 
@@ -28,8 +30,8 @@ To confirm whether python has been properly install or not do following steps.
 
 Step 1: Open system terminal
 Step 2: 
-$ python -V
-Python 2.7.6
+         $ python -V
+         Python 2.7.6
 
 ```
 
@@ -45,8 +47,8 @@ pip is a package management system used to install and manage software packages 
 Open your system's terminal and execute following commands
 
 $ sudo apt-get install -y python-pip
-$ sudo pip install -U pip
-$ sudo pip install setuptools==33.1.1
+$ sudo pip install --upgrade pip
+
 
 Confirm pip has been installed successfully.
 
