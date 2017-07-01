@@ -1,3 +1,6 @@
+# Run this script with command line argument
+# python sentimentanalysis_SVM.py /home/jalaj/PycharmProjects/NLPython/NLPython/ch8/sentimentanalysis/data  /home/jalaj/PycharmProjects/NLPython/NLPython/ch8/sentimentanalysis/data
+
 import sys
 import os
 import time
