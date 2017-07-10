@@ -37,7 +37,7 @@ def stemmer_porter():
     print " ".join([port.stem(i) for i in text5.split()])
 
 
-def polygolt_stem():
+def polyglot_stem():
     print "\nDerivational Morphemes using polyglot library"
     for w in words_derv:
         w = Word(w, language="en")
@@ -54,4 +54,4 @@ def polygolt_stem():
 
 if __name__ == "__main__":
     stemmer_porter()
-    polygolt_stem()
+    polyglot_stem()
