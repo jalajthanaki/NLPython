@@ -6,5 +6,4 @@ $ sudo pip install beautifulsoup4
 
 
 Installation of Scrapy
-
 $ sudo pip install Scrapy
