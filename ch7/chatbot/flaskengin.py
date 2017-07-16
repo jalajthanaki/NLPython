@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify, Response
 from customscripts import conversationengine as cs
 from flask_cors import CORS
 import json
-import ast, requests
 import os, uuid
 from datetime import datetime
 from pytz import timezone
