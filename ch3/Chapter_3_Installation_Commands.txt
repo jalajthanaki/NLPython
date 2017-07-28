@@ -1,0 +1,21 @@
+NLTK we have already installed 
+
+We need to install followiing libraries
+
+Polyglot - installation steps
+  $ sudo apt-get install python-numpy libicu-dev
+  $ sudo pip install polyglot==16.7.4
+
+
+pycorenlp - stanford parser wrapper
+
+Section A install Stanford coreNlp
+                  3.1. download corenlp: https://stanfordnlp.github.io/CoreNLP/
+                  3.2 extract the zip anywhere
+                  3.3 $ cd stanford-corenlp-full-2016-10-31/
+                  3.4 $ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
+
+
+Section B install pycornlp
+                  3.5: open new terminal
+                  3.6:  $ sudo pip install pycorenlp

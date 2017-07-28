@@ -1,0 +1,18 @@
+Gensim installation:
+
+	sudo pip install numpy
+	sudo pip install scipy
+	sudo pip install gensim==0.13.4.1
+
+Flask Instillation step:
+	sudo pip install Flask==0.12.2
+	sudo pip install Flask-Cors==3.0.2
+	sudo pip install Flask-PyMongo==0.5.1
+
+
+MongoDB installation step link:
+	https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+from this link you can download GoogleNews-vector model
+	https://github.com/mmihaltz/word2vec-GoogleNews-vectors 
+	After downloading unzip it 

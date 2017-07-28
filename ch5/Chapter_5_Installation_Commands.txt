@@ -1,0 +1,26 @@
+
+NLTK already installed
+
+Stanford NER tool should be installed from this link:
+	https://nlp.stanford.edu/software/CRF-NER.shtml 
+after that unzip it at any place.
+
+
+Spacy installation steps: 
+	 $ sudo pip install -U spacy==1.8.2
+         $ python -m spacy download en
+
+Scikit-learn installation step
+	 $  sudo pip install scikit-learn==0.18.1
+
+Pycorenlp is already installed
+
+polyglot is already installed
+
+textblob installation step
+	$ sudo pip install textblob==0.12.0
+
+
+
+
+

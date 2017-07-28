@@ -1,0 +1,15 @@
+Installation of numpy
+	$ sudo pip install numpy==1.13.1
+
+Installation of scipy
+	$ sudo pip install scipy==0.19.0
+
+Installation of tensorflow
+	$ sudo apt-get install libcupti-dev
+	$ sudo apt-get install python-pip python-dev   # for Python 2.7
+	$ sudo apt-get install python3-pip python3-dev # for Python 3.n
+	$ pip install tensorflow      # Python 2.7; CPU support (no GPU support)
+	$ pip3 install tensorflow     # Python 3.n; CPU support (no GPU support)
+	you can refer this link as well
+	https://www.tensorflow.org/install/install_linux#InstallingNativePip
+

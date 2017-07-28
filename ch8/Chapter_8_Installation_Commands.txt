@@ -1,0 +1,8 @@
+Installation of pandas:
+	$ sudo pip install pandas
+
+Installation of matplotlib:
+	$ sudo apt-get install python-matplotlib
+
+Installation of scikit-learn
+	$ sudo pip install scikit-learn

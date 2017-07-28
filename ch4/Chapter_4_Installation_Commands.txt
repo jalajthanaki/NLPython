@@ -1,0 +1,7 @@
+We are going to use following libraries
+
+NLTK we have already installed.
+re - Default python package (No need to install)
+collections  - Default python package (No need to install)
+
+
