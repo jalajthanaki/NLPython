@@ -25,7 +25,7 @@ Jump to the following path
  
 Now you can see the pycharm.sh
 ```
-    $ sh ./pycharm.sh or sudo sh./pycharm.sh
+    $ sh ./pycharm.sh or sudo sh ./pycharm.sh
 ```
 
 
