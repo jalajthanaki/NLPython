@@ -1,6 +1,6 @@
 ### All the codes are related to my book entitled "Python Natural Language Processing". 
 
-
+This repository contains the code related to Natural Language Processing using python scripting language.
 
 Details of the book:
 
@@ -20,4 +20,4 @@ Details of the book:
 ### NLPython
 
 [![Join the chat at https://gitter.im/NLPython/Lobby](https://badges.gitter.im/NLPython/Lobby.svg)](https://gitter.im/NLPython/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-This repository contains the code related to Natural Language Processing using python scripting language. You can join this gitter room for further discusstion.
+You can join this gitter room for further discusstion.
