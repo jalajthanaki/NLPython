@@ -1,4 +1,4 @@
-### All the codes are related to my book entitled "Python Natural Language Processing". 
+### All the codes are related to my book entitled ["Python Natural Language Processing"](https://www.amazon.com/Python-Natural-Language-Processing-techniques/dp/1787121429/ref=mt_paperback?_encoding=UTF8&me=).
 
 This repository contains the code related to Natural Language Processing using python scripting language.
 
