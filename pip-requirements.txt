@@ -66,7 +66,7 @@ nbconvert==5.2.1
 nbformat==4.3.0
 ndg-httpsclient==0.4.0
 nltk==3.2.4
-notebook==5.4.1
+notebook>=5.7.2
 numpy==1.13.1
 oauthlib==1.0.3
 oneconf==0.3.9
