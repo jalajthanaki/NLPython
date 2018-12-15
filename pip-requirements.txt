@@ -140,7 +140,7 @@ Twisted==16.0.0
 ubuntuone-client-data==14.4
 ujson==1.35
 unity-lens-photos==1.0
-urllib3==1.21.1
+urllib3>=1.23
 wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==0.12.2
