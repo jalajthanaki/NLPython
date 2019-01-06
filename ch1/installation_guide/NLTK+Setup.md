@@ -71,7 +71,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>import nltk
 >>>nltk.download()
 
-Choose the path where you wnat to download nltk data and click "Download" option.
+Choose the path where you want to download nltk data and click "Download" option.
 
 Download process may take long time.
 you can refer the diagram 1.4 given in chapter no 1
