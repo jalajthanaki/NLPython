@@ -143,7 +143,7 @@ unity-lens-photos==1.0
 urllib3>=1.23
 wcwidth==0.1.7
 webencodings==0.5.1
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 widgetsnbextension==2.0.0
 wrapt==1.10.10
 zope.interface==4.1.3
