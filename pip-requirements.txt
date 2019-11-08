@@ -65,7 +65,7 @@ murmurhash==0.26.4
 nbconvert==5.2.1
 nbformat==4.3.0
 ndg-httpsclient==0.4.0
-nltk==3.2.4
+nltk==3.4.5
 notebook>=5.7.2
 numpy==1.13.1
 oauthlib==1.0.3
