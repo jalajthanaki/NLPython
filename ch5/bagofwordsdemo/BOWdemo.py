@@ -7,4 +7,4 @@ ngram_vectorizer = CountVectorizer(analyzer='char_wb', ngram_range=(2, 2), min_d
 counts = ngram_vectorizer.fit_transform(['words', 'wprds'])
 # this check weather the given word character is present in the above teo word which are documents here.
 ngram_vectorizer.get_feature_names() == ([' w', 'ds', 'or', 'pr', 'rd', 's ', 'wo', 'wp'])
-print counts.toarray().astype(int)
+print(counts.toarray().astype(int))

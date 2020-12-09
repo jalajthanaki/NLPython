@@ -1,7 +1,11 @@
 #The credits for this code go to Ludo Bouan.
 # I've merely created a wrapper to get people started.
 
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
 import numpy as np
+from six.moves import range
 np.seterr(over='ignore')
 
 class NeuralNetwork():

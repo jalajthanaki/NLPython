@@ -24,30 +24,30 @@ def readcorpus():
     return raw_content_cg[0:1000]
 
 if __name__ == "__main__":
-    print ""
-    print "----------Output from Raw Text file-----------"
-    print ""
+    print("")
+    print("----------Output from Raw Text file-----------")
+    print("")
     filecontentdetails = fileread()
-    print filecontentdetails
+    print(filecontentdetails)
     # sentence tokenizer
     st_list_rawfile = st(filecontentdetails)
-    print len(st_list_rawfile)
+    print(len(st_list_rawfile))
 
-    print ""
-    print "-------Output from assigned variable-------"
-    print ""
+    print("")
+    print("-------Output from assigned variable-------")
+    print("")
     localveriabledata = localtextvalue()
-    print localveriabledata
+    print(localveriabledata)
     # sentence tokenizer
     st_list_local = st(localveriabledata)
-    print len(st_list_local)
-    print st_list_local
+    print(len(st_list_local))
+    print(st_list_local)
 
-    print ""
-    print "-------Output Corpus data--------------"
-    print ""
+    print("")
+    print("-------Output Corpus data--------------")
+    print("")
     fromcorpusdata = readcorpus()
-    print fromcorpusdata
+    print(fromcorpusdata)
     # sentence tokenizer
     st_list_corpus = st(fromcorpusdata)
-    print len(st_list_corpus)
+    print(len(st_list_corpus))

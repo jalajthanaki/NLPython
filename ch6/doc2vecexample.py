@@ -36,9 +36,9 @@ model = g.Doc2Vec(docs, size=vector_size, window=window_size, min_count=min_coun
 # save model
 model.save(saved_path)
 
-print "training is over....!\n"
+print("training is over....!\n")
 
-print "testing started....!\n"
+print("testing started....!\n")
 #parameters
 model="/home/jalaj/PycharmProjects/NLPython/NLPython/ch6/doc2vecdata/model.bin"
 test_docs="/home/jalaj/PycharmProjects/NLPython/NLPython/ch6/doc2vecdata/test_docs.txt"
@@ -50,7 +50,7 @@ infer_epoch=1000
 
 #load model
 m = g.Doc2Vec.load(model)
-print m.wv.most_similar(positive=['family', 'dog'])
+print(m.wv.most_similar(positive=['family', 'dog']))
 test_docs = [ x.strip().split() for x in codecs.open(test_docs, "r", "utf-8").readlines() ]
 
 #infer test vectors

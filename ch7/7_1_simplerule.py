@@ -1,5 +1,9 @@
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
 from bs4 import BeautifulSoup
 import requests
+import six
 
 def savedatainfile(filecontent):
     file = open("/home/jalaj/PycharmProjects/NLPython/NLPython/data/simpleruledata.txt", "a+")
@@ -8,7 +12,7 @@ def savedatainfile(filecontent):
 
 def rulelogic(filecontent):
     programminglanguagelist = []
-    with open(filecontent)as file:
+    with open(filecontent) as file:
         for line in file:
             if 'languages' in line or 'language' in line:
                 # print line
@@ -17,7 +21,7 @@ def rulelogic(filecontent):
                     if word[0].isupper():
                         programminglanguagelist.append(word)
                         # print programminglanguagelist
-        print programminglanguagelist
+        print(programminglanguagelist)
 
 def scrapdata():
     url = 'https://en.wikipedia.org/wiki/Programming_language'
@@ -26,7 +30,7 @@ def scrapdata():
     tag = soup.find('div', {'class': 'mw-content-ltr'})
     paragraphs = tag.findAll('p')
     for para in paragraphs:
-        paraexport = para.text.encode('utf-8')
+        paraexport = six.ensure_binary(para.text, 'utf-8')
         savedatainfile(paraexport)
     rulelogic("/home/jalaj/PycharmProjects/NLPython/NLPython/data/simpleruledata.txt")
 

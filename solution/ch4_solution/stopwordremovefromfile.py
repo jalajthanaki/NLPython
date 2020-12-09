@@ -7,7 +7,7 @@ def readfileandremovestopword():
     words = file_contents.lower().split()
     stops = set(stopwords.words("english"))
     preprocessed_words = [w for w in words if not w in stops]
-    print ""
+    print("")
     return (" ".join(preprocessed_words))
 
 
@@ -22,9 +22,9 @@ def fileloadandremovestopwords():
     return processedword
 
 if __name__ == "__main__":
-    print "---------------"
-    print readfileandremovestopword()
-    print "\n"
-    print "---------------"
-    print "\n"
-    print fileloadandremovestopwords()
+    print("---------------")
+    print(readfileandremovestopword())
+    print("\n")
+    print("---------------")
+    print("\n")
+    print(fileloadandremovestopwords())

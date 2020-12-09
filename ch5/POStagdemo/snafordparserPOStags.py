@@ -9,7 +9,7 @@ def stnfordpostagdemofunction(text):
     })
     for s in output["sentences"]:
         for t in s["tokens"]:
-            print str(t["word"])+ " --- postag --"+ str(t["pos"])
+            print(str(t["word"])+ " --- postag --"+ str(t["pos"]))
 
 
 if __name__ == "__main__":

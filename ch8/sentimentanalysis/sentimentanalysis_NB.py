@@ -63,8 +63,8 @@ if __name__ == '__main__':
     print("Results for NaiveBayes (MultinomialNB) ")
     print("Training time: %fs; Prediction time: %fs" % (time_train, time_predict))
     print(classification_report(test_labels, prediction))
-    print "Reviews Prediction"
-    print prediction[10] + "----"+test_data[10]
+    print("Reviews Prediction")
+    print(prediction[10] + "----"+test_data[10])
 
-    print "\nReviews Prediction"
-    print prediction[100] + "----" + test_data[100]
+    print("\nReviews Prediction")
+    print(prediction[100] + "----" + test_data[100])

@@ -23,7 +23,7 @@ def definegrammar_pasrereult():
     parser = nltk.ChartParser(Grammar)
     trees = parser.parse(sent)
     for tree in trees:
-        print tree
+        print(tree)
 
 # Part 2: Draw the parse tree
 def draw_parser_tree():
@@ -50,9 +50,9 @@ def stanford_parsing_result():
 
 
 if __name__ == "__main__":
-    print "\n--------Parsing result as per defined grammar-------"
+    print("\n--------Parsing result as per defined grammar-------")
     definegrammar_pasrereult()
-    print "\n--------Drawing Parse Tree-------"
+    print("\n--------Drawing Parse Tree-------")
     draw_parser_tree()
-    print "\n--------Stanford Parser result------"
+    print("\n--------Stanford Parser result------")
     stanford_parsing_result()

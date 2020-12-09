@@ -10,9 +10,9 @@ findpattern_pm = re.search(r'\b([1-9]|0[1-9]|1[0-2]{1,2})(pm)\b',
 
 if findpattern_am:
     #print findpattern_am.group()
-    print re.sub(r'\b([1-9]|0[1-9]|1[0-2]{1,2})(am)\b', r'\1 a.m.', inputstring)
+    print(re.sub(r'\b([1-9]|0[1-9]|1[0-2]{1,2})(am)\b', r'\1 a.m.', inputstring))
 elif findpattern_pm:
     #print findpattern_pm.group()
-    print re.sub(r'\b([1-9]|0[1-9]|1[0-2]{1,2})(pm)\b', r'\1 p.m.', inputstring)
+    print(re.sub(r'\b([1-9]|0[1-9]|1[0-2]{1,2})(pm)\b', r'\1 p.m.', inputstring))
 else:
-    print "Not matched...!"
+    print("Not matched...!")

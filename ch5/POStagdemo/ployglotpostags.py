@@ -13,4 +13,4 @@ text = Text("This is a car")
 
 print("{:<16}{}".format("Word", "POS Tag")+"\n"+"-"*30)
 for word, tag in text.pos_tags:
-    print(u"{:<16}{:>2}".format(word, tag))
+    print("{:<16}{:>2}".format(word, tag))
