@@ -26,7 +26,7 @@ bloblist = [blob, blob2, blob3]
 tf_score = tf('short', blob)
 idf_score = idf('short', bloblist)
 tfidf_score = tfidf('short', blob, bloblist)
-print "tf score for word short--- "+ str(tf_score)+"\n"
-print "idf score for word short--- "+ str(idf_score)+"\n"
-print "tf x idf score of word short--- "+str(tfidf_score)
+print("tf score for word short--- "+ str(tf_score)+"\n")
+print("idf score for word short--- "+ str(idf_score)+"\n")
+print("tf x idf score of word short--- "+str(tfidf_score))
 

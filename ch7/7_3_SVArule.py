@@ -24,13 +24,13 @@ def rulelogic(sentnece):
     #print leaves_list
     if (any("We" in x for x in leaves_list) or any("I" in x for x in leaves_list) or any(
                     "You" in x for x in leaves_list) or any("They" in x for x in leaves_list)) and any("VBZ" in x for x in leaves_list):
-        print "Alert: \nPlease check Subject and verb in the sentence.\nYou may have plural subject and singular verb. "
+        print("Alert: \nPlease check Subject and verb in the sentence.\nYou may have plural subject and singular verb. ")
     elif(any("He" in x for x in leaves_list) or any("She" in x for x in leaves_list) or any(
                     "It" in x for x in leaves_list)) and any("VBP" in x for x in leaves_list):
-        print "Alert: \nPlease check subject and verb in the sentence.\n" \
-              "You may have singular subject and plural verb."
+        print("Alert: \nPlease check subject and verb in the sentence.\n" \
+              "You may have singular subject and plural verb.")
     else:
-        print "You have correct sentence."
+        print("You have correct sentence.")
 
 if __name__ == "__main__":
     rulelogic('We know cooking.')

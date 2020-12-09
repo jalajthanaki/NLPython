@@ -78,15 +78,15 @@ response = tfidf.transform([str])
 
 feature_names = tfidf.get_feature_names()
 for col in response.nonzero()[1]:
-    print feature_names[col], ' - ', response[0, col]
+    print(feature_names[col], ' - ', response[0, col])
 
 
 feature_array = np.array(tfidf.get_feature_names())
 tfidf_sorting = np.argsort(response.toarray()).flatten()[::-1]
 n = 3
 top_n = feature_array[tfidf_sorting][:n]
-print top_n
+print(top_n)
 
 n = 4
 top_n = feature_array[tfidf_sorting][:n]
-print top_n
+print(top_n)

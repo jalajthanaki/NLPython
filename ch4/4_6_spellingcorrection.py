@@ -1,5 +1,9 @@
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
 import re
 from collections import Counter
+from six.moves import range
 
 def words(text):
     return re.findall(r'\w+', text.lower())
@@ -38,7 +42,7 @@ def edits2(word):
 
 
 if __name__ == "__main__":
-    print correction('aple')
-    print correction('correcton')
-    print correction('statament')
-    print correction('tutpore')
+    print(correction('aple'))
+    print(correction('correcton'))
+    print(correction('statament'))
+    print(correction('tutpore'))

@@ -1,16 +1,21 @@
 # creating our own POS tagger
 # code credit goes to http://nlpforhackers.io/training-pos-tagger/
 
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
 import nltk
 from nltk import word_tokenize
 import pprint
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
+from six.moves import range
+from six.moves import zip
 
 #tagged_sentences = nltk.corpus.brown.tagged_sents()
 tagged_sentences = nltk.corpus.treebank.tagged_sents()
-print tagged_sentences[0]
+print(tagged_sentences[0])
 
 # print "Tagged sentences: ", len(tagged_sentences)
 # print "Tagged words:", len(nltk.corpus.treebank.tagged_words())
@@ -66,11 +71,11 @@ clf = Pipeline([
 clf.fit(X[:10000],
         y[:10000])  # Use only the first 10K samples if you're running it multiple times. It takes a fair bit :)
 
-print 'Training completed'
+print('Training completed')
 
 X_test, y_test = transform_to_dataset(test_sentences)
 
-print "Accuracy:", clf.score(X_test, y_test)
+print("Accuracy:", clf.score(X_test, y_test))
 
 
 def pos_tag(sentence):
@@ -79,4 +84,4 @@ def pos_tag(sentence):
     return zip(sentence, tags)
 
 
-print pos_tag(word_tokenize('This is my friend, John.'))
+print(pos_tag(word_tokenize('This is my friend, John.')))

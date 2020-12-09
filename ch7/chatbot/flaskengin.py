@@ -168,7 +168,7 @@ def mobilenumber_asking():
             # db_handler.update({"request_user_id": request_user_id}, {
             #     '$set': {"request_user_id": request_user_id, "conversation": conversation_list_history, "time": now_india.strftime(fmt)},
             #     "$currentDate": {"lastModified": True}}, upsert=True)
-        except Exception:
+        except Exception :
             conversation_list_history.append(mobilenumber_asking_status)
             # db_handler.insert({"request_user_id": request_user_id, "conversation": conversation_list_history,
             #                    "time": now_india.strftime(fmt)})
@@ -194,7 +194,7 @@ def loan_ammount_asking_coversation():
         # db_handler.update({"request_user_id": request_user_id}, {
         #     '$set': {"request_user_id": request_user_id, "conversation": conversation_list_history, "time": now_india.strftime(fmt)},
         #     "$currentDate": {"lastModified": True}}, upsert=True)
-        print post_data_lead_create
+        print(post_data_lead_create)
         resp = Response(loan_conv_msg, status=200, mimetype='application/json')
         return resp
 
