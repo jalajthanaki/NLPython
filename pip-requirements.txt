@@ -53,7 +53,7 @@ jupyter-client==5.0.1
 jupyter-console==5.1.0
 jupyter-core==4.3.0
 lockfile==0.12.2
-lxml==3.5.0
+lxml==4.6.3
 Markdown==2.6.8
 MarkupSafe==1.0
 matplotlib==2.0.2
