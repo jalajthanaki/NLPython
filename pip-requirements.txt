@@ -136,7 +136,7 @@ toolz==0.8.2
 tornado==4.5.1
 tqdm==4.14.0
 traitlets==4.3.2
-Twisted==16.0.0
+Twisted==20.3.0
 ubuntuone-client-data==14.4
 ujson==1.35
 unity-lens-photos==1.0
