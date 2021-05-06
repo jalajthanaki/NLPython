@@ -29,7 +29,7 @@ en-core-web-sm==1.2.0
 entrypoints==0.2.3
 enum34==1.1.6
 Flask==0.12.2
-Flask-Cors==3.0.2
+Flask-Cors==3.0.9
 Flask-PyMongo==0.5.1
 ftfy==4.4.3
 funcsigs==1.0.2
