@@ -126,7 +126,7 @@ smart-open==1.5.3
 software-center-aptd-plugins==0.0.0
 spacy==1.8.2
 subprocess32==3.2.7
-tensorflow-gpu==1.2.1
+tensorflow-gpu==2.5.1
 termcolor==1.1.0
 terminado==0.6
 testpath==0.3.1
