@@ -112,7 +112,7 @@ pyxdg==0.25
 pyzmq==16.0.2
 qtconsole==4.3.0
 regex==2017.4.5
-reportlab==3.3.0
+reportlab==3.5.55
 requests>=2.20.0
 scandir==1.5
 scikit-learn==0.18.1
