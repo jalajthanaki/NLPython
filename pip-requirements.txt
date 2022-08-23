@@ -62,7 +62,7 @@ mock==2.0.0
 Morfessor==2.0.2a4
 mpld3==0.3
 murmurhash==0.26.4
-nbconvert==5.2.1
+nbconvert==6.5.1
 nbformat==4.3.0
 ndg-httpsclient==0.4.0
 nltk==3.2.4
