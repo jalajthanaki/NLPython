@@ -16,7 +16,7 @@ text8 = "dogs"
 text9 = "expected"
 words_derv = ["happiness", "unkind"]
 word_infle = ["dogs", "expected"]
-words = ["unexpected", "disagreement", "disagree", "agreement", "quirkiness", "canonical" "historical"]
+words = ["unexpected", "disagreement", "disagree", "agreement", "quirkiness", "canonical", "historical"]
 
 def stemmer_porter():
     port = PorterStemmer()
