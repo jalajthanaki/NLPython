@@ -2,7 +2,12 @@ NLTK we have already installed
 
 We need to install followiing libraries
 
-Polyglot - installation steps
+Polyglot - installation steps (DEPRECATED - polyglot data server is no longer available)
+  NOTE: The polyglot library has been replaced with NLTK's SnowballStemmer in 3_1_wordsteam.py
+  due to the polyglot data server (http://polyglot.cs.stonybrook.edu/~polyglot) being unavailable.
+  The NLTK SnowballStemmer provides similar stemming functionality without requiring external downloads.
+  
+  Original installation (no longer needed):
   $ sudo apt-get install python-numpy libicu-dev
   $ sudo pip install polyglot==16.7.4
 
