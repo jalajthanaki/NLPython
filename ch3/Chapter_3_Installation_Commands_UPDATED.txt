@@ -1,0 +1,83 @@
+NLTK we have already installed 
+
+===========================================
+IMPORTANT: Polyglot Library Issues
+===========================================
+
+The polyglot library (version 16.7.4) has known issues:
+1. Deprecated since 2016, not actively maintained
+2. Server access issues causing HTTP 403 errors
+3. Complex dependency requirements
+
+RECOMMENDED SOLUTION: Use the NLTK-only alternative script
+  - File: 3_1_wordsteam_nltk_only.py
+  - Only requires: pip install nltk
+  - More reliable and demonstrates multiple stemming algorithms
+
+===========================================
+Option 1: NLTK-Only Solution (RECOMMENDED)
+===========================================
+
+Installation:
+  $ pip install nltk
+
+Usage:
+  $ python3 3_1_wordsteam_nltk_only.py
+
+This provides the same educational value without polyglot issues.
+
+===========================================
+Option 2: Full Polyglot Installation (Advanced)
+===========================================
+
+Note: May still encounter HTTP 403 errors even after installation
+
+System Dependencies:
+  $ sudo apt-get update
+  $ sudo apt-get install -y libicu-dev pkg-config
+
+Python Dependencies:
+  $ pip install polyglot==16.7.4
+  $ pip install PyICU pycld2 morfessor numpy six
+
+Apply Patch (to fix HTTP 403 errors):
+  $ python3 polyglot_downloader_patch.py
+
+Run Script:
+  $ python3 3_1_wordsteam.py
+
+Warning: Polyglot's morpheme download may still fail due to server issues.
+
+===========================================
+Option 3: Modern Alternatives (Production)
+===========================================
+
+For production code, consider these well-maintained alternatives:
+
+spaCy (Recommended):
+  $ pip install spacy
+  $ python -m spacy download en_core_web_sm
+
+Stanza (Stanford NLP):
+  $ pip install stanza
+
+===========================================
+Stanford CoreNLP (Section 3.3)
+===========================================
+
+Section A: Install Stanford CoreNLP
+  3.1. Download CoreNLP: https://stanfordnlp.github.io/CoreNLP/
+  3.2. Extract the zip anywhere
+  3.3. $ cd stanford-corenlp-full-2016-10-31/
+  3.4. $ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
+
+Section B: Install pycorenlp
+  3.5. Open new terminal
+  3.6. $ pip install pycorenlp
+
+===========================================
+For More Information
+===========================================
+
+See FIXES_README.md for detailed explanations, troubleshooting,
+and comparison of different solutions.
